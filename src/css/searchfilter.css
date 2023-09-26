@@ -1,0 +1,95 @@
+/* Include this CSS in your project's stylesheet or component-specific CSS file */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Transparent border */
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent background */
+  }
+  
+  .filter label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  .filter select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7); /* Transparent background */
+    color: #333;
+    width: 100%;
+    max-width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .filter button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Transparent border */
+  }
+  
+  .filter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .property-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .property-item {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Transparent border */
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .property-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .property-details {
+    flex: 1;
+  }
+  
+  .property-action {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding:
+  }

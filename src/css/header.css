@@ -1,0 +1,51 @@
+/* Navbar Brand Style */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Navbar Link Style */
+  .navbar-nav .nav-link {
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  /* Active Link Style */
+  .navbar-nav .nav-item.active .nav-link {
+    font-weight: bold;
+  }
+  
+  /* Dropdown Link Style */
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    background-color: #f8f9fa;
+  }
+  
+  .dropdown-item {
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
+  /* Additional Styles */
+  .navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 15px; /* Add spacing between nav items */
+  }
+  
